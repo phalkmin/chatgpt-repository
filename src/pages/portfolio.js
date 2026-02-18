@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 const PortfolioPage = () => (
   <Layout>
@@ -17,3 +18,10 @@ const PortfolioPage = () => (
 )
 
 export default PortfolioPage
+
+export const Head = () => (
+  <Seo 
+    title="Portfolio" 
+    description="Showcasing projects and the results of an AI-driven development process." 
+  />
+)

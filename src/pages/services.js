@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 const ServicesPage = () => (
   <Layout>
@@ -17,3 +18,10 @@ const ServicesPage = () => (
 )
 
 export default ServicesPage
+
+export const Head = () => (
+  <Seo 
+    title="Services" 
+    description="Services offered by a Tech Lead, demonstrating the power of AI-assisted development." 
+  />
+)
